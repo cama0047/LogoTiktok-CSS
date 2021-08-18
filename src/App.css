@@ -1,0 +1,12 @@
+.tiktok{
+ margin: 100px auto ;
+width: 37px;
+height: 218px;
+background-color: #fff;
+
+box-shadow: 11px 10px 0 0 #fe2d52 ;
+filter: drop-shadow(-10px -10px 0 #28ffff);
+
+position: relative;
+
+}
