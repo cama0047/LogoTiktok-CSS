@@ -28,3 +28,25 @@ filter: drop-shadow(16px 0 0 #fe2d52);
 top:123px;
 left: -137px;
 }
+
+
+
+.tiktok::before{
+
+content:"";
+position: absolute;
+
+border:30px solid transparent;
+border-bottom-color: #fff;
+
+width: 140px;
+height: 140px;
+
+border-radius: 100%;
+transform: rotate(45deg);
+filter: drop-shadow(14px 0 0 #fe2d52);
+top:-100px;
+right: -172px;
+
+
+}
