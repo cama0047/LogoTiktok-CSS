@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+.tiktok{
+ margin: 100px auto ;
+width: 37px;
+height: 218px;
+background-color: #fff;
+
+box-shadow: 11px 10px 0 0 #fe2d52 ;
+filter: drop-shadow(-10px -10px 0 #28ffff);
+
+position: relative;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.tiktok::after{
+content:"";
+position: absolute;
+
+border:37px solid #fff;
+
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.tiktok::before{}
